@@ -1,0 +1,46 @@
+
+* {
+    padding:0;
+    margin: 0;
+}
+body {
+    background: url("../images/1.jpg") no-repeat fixed;
+    background-size: cover;
+    text-align:center;
+}
+
+.contain {
+    width:894px;
+    height:894px;
+    background: url("../images/clockface.jpg") no-repeat;
+    margin: 0 auto 0 auto;
+}
+
+.hands{
+    position: absolute;
+    left: 47%;
+    top:22%;
+
+    -webkit-transform-origin: bottom center;
+    -moz-transform-origin: bottom center;
+    -o-transform-origin: bottom center;
+    -ms-transform-origin: bottom center;;
+}
+.hour{
+    transform-origin:32px 300px;
+    height: 600px;
+    width:64px;
+    background: url("../images/hourhand.png") no-repeat;
+}
+.minute{
+    transform-origin:31px 300px;
+    height: 600px;
+    width:62px;
+    background: url("../images/minhand.png") no-repeat;
+}
+.second{
+    transform-origin:32px 300px;
+    height: 600px;
+    width: 63px;
+    background: url("../images/sehand.png") no-repeat;
+}

@@ -1,0 +1,41 @@
+body {
+    background: url("../images/earth.jpg");
+    font-family: Helvetica;
+}
+
+form.container {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    margin:auto;
+    border: 2px solid lightgrey;
+    padding-left: 10px;
+}
+section.video {
+    text-align: center;
+}
+
+section.title > h1 {
+    text-align: center;
+}
+
+section.shoe {
+    text-align:center;
+}
+
+section.submitAndreset {
+    text-align: right;
+    margin-right: 20px;
+}
+
+textarea, select, input {
+    border-radius: 5px;
+}
+
+img#shoe1 {
+    border:2px solid black;
+}
+
+img#shoe1:hover {
+    border:2px solid lightgreen;
+}

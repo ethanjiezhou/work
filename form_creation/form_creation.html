@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form Creation</title>
+    <link rel="stylesheet" href="css/myCss.css" type="text/css">
+</head>
+
+<body>
+    <form class="container">
+
+        <section class="title">
+            <h1>Customer's shoes return form</h1>
+            <p>"I have a dream"-"Martin Luther King"</p>
+        </section>
+
+        <section class="firstPart">
+            <p>10<input id="range" type="range" min="10" max="100" name="range">100</p>
+            <p>Name:</p>
+            <input type="text" name="name" placeholder="Input your name here" autofocus><br/>
+            <p>Customer Email:</p>
+            <input type="email" name="email" placeholder="Input your email here" autofocus><br/>
+            <p>Customer Password:</p>
+            <input type="password" name="password" placeholder="Input your password here" autofocus><br/>
+            <p>Custom Gender:</p>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <p>Select the date you bought the shoes:</p>
+            <input type="date" name="date">
+            <p>Select your shoes size:</p>
+            <select name="size">
+                <option value=""></option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <p>What's the color of the shoes:</p>
+            <input type="color" name="color">
+            <p>Tell me the number of shoes you want to return:</p>
+            <input type="number" name="number" min="1" max="10">
+            <p>Want to listen to a good song?</p>
+        </section>
+
+        <section class="video">
+            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/5NTqZ347TKY" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section class="secondPart">
+            <p>Upload the picture of returning shoes:</p>
+            <input type="file" name="file">
+            <p>Give the serial number of the shoes returned:</p>
+            <input type="text" name="serialNum">
+            <p>The reason why you want to return it:(multiChoice)</p>
+            <input type="checkbox" name="quality">quality<br/>
+            <input type="checkbox" name="size">size<br/>
+            <input type="checkbox" name="experience">price<br/>
+            <input type="checkbox" name="experience">company<br/>
+            <p>Any comments on our team:</p>
+            <textarea  rows="10" cols="50" placeholder="Anything you want to tell us."></textarea>
+        </section>
+
+        <section class="shoe">
+            <section class="image">
+                <p>Check out the those shoes we are selling:</p>
+                <div class="content">
+                    <a id="super" target="_blank" href="images/shoe1.jpg">
+                    <img id="shoe1" height="100" width="200" src="images/shoe1.jpg" />
+                    </a>
+                    <div id="desc"><a href="http://www.nike.com/us/en_us/?cp=EUNS_AFF_WG_DE_73669&ref=http%253A%252F%252Ftrack.webgains.com%252Fclick.html%253Fwgcampaignid%253D73669%2526wgprogramid%253D6375%2526clickref%253Dil8abbe6l40115i001s68%2526wgtarget%253Dhttp%253A%252F%252Fnike.com%252F"> Check for this shoe on website.<a/></div>
+                </div>
+            </section>
+        </section>
+
+        <br/>
+        <br/>
+
+        <section class="submitAndreset">
+            <input type="submit" name="submit">
+            <input type="reset">
+        </section>
+
+    </form>
+</body>
+</html>
